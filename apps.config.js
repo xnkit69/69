@@ -5,7 +5,6 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutX } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -26,15 +25,6 @@ const apps = [
         favourite: true,
         desktop_shortcut: false,
         screen: displayTerminalCalc,
-    },
-    {
-        id: "about-X",
-        title: "About X[69]",
-        icon: './themes/Yaru/system/user-home.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: true,
-        screen: displayAboutX,
     },
     {
         id: "vscode",
